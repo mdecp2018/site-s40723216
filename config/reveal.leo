@@ -21,8 +21,14 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181104125641.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181104125651.1"><vh>影片內容</vh></v>
+</v>
+<v t="leo.20181104125748.1" a="E"><vh>導入影片</vh>
+<v t="leo.20181104125748.2"><vh>影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -326,5 +332,33 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181104125641.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181104125651.1">###week1
+
+###如何建立個人github 網站
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aUiKeZ4gwGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181104125748.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181104125748.2">###week3
+
+### git 基本練習
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o82ktbT9--4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>

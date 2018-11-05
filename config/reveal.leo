@@ -355,6 +355,20 @@ make.start()
 
 
 						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+    ### week4
+
+### 更改reveal標題
+心得:
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pqLYzys4HsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;一開始跟著影片操作時還有點生疏，但做了兩周後就了解了工作原理，也開始加速處理網站的維護
+
+
+						
 </t>
 <t tx="leo.20181104125748.2">    &lt;script type="text/template"&gt;
     ### week2

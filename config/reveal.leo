@@ -360,12 +360,14 @@ make.start()
     ### week4
 
 ### 更改reveal標題
-心得:
+心得:一開始跟著影片操作時還有點生疏，
+         但做了兩周後就了解了工作原理，
+         也開始加速處理網站的
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pqLYzys4HsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
     &lt;/script&gt;
-&lt;/section&gt;一開始跟著影片操作時還有點生疏，但做了兩周後就了解了工作原理，也開始加速處理網站的維護
+&lt;/section&gt;
 
 
 						
@@ -375,7 +377,7 @@ make.start()
 
 ### 試做如何使用zoomit 跟Sharex
 
-&lt;iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8aPytUGz2ew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
     &lt;/script&gt;
 &lt;/section&gt;

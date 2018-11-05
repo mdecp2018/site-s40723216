@@ -72,4 +72,41 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課程介紹.html'>課程介紹</a><ul><li><a href='GIT基本指令.html'>GIT基本指令</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section><h1>Site Map</h1><ul><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課程介紹.html'>課程介紹</a><ul><li><a href='GIT基本指令.html'>GIT基本指令</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></section></div></body></html>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課程介紹.html'>課程介紹</a><ul><li><a href='GIT基本指令.html'>GIT基本指令</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>課程介紹 << <a href='課程介紹.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片<br /><h1>GIT基本指令</h1>
+<p>mkdir name 創建一個文檔夾
+
+<p>rm file 刪除</p>
+<p>cd name 進入文檔夾</p>
+<p>pwd 查看當前目錄</p>
+<p>git init 把當前目錄變成git可以管理的倉庫 生成.git文檔夾</p>
+<p>git add name 把文檔添加到暫存區stage</p>
+<p>git commit -m “ ” 把暫存區所有文檔提交到git當前分支上（本地倉庫）</p>
+<p>git status 查看當前git倉庫狀態</p>
+<p>git diff file 查看修改的文檔內容</p>
+<p>git log 查看從最近到最遠的提交日誌</p>
+<p>git reset --hard 版本號  回退到某版本（HEAD指向當前版本）</p>
+<p>git push origin HEAD --force 上傳目前(hard)版本</p>
+<p>git reflog  查看命令操作歷史</p>
+<p>git checkout -- file    丟棄工作區文檔的修改</p>
+<p>git reset HEAD file    丟棄暫存區的文檔</p>
+<p>git rm file  刪除工作區文檔後還需刪除git中的文檔</p>
+<p>git checkout --file  恢復誤刪的git文檔</p>
+<p>關聯一個遠程倉庫   git remote add origin address</p>
+<p>第一次推送代碼到遠程倉庫 git push -u origin master
+
+（-u會把本地倉庫master分支和遠程倉庫的master分支關聯起來）
+
+從遠程倉庫克隆代碼到本地 git clone address</p>
+<p>創建分支 git branch name</p>
+<p>切換分支 git checkout name  </p>
+<p>查看分支 git branch</p>
+<p>創建分支並切換到分支上　　git checkout -b name</p>
+<p>合併指定分支到當前分支上 git merge name</p>
+<p>合併後刪除分支 git branch -d name</p>
+<p>合併時出現衝突要手動解決衝突，再提交，最後合併。
+
+將寫到一半的代碼從工作區拿走存起來 git stash</p>
+<p>恢復隱藏的代碼到工作區並刪除隱藏位置的代碼  git stash pop</p>
+<p>強行刪除一個沒有合併過的分支 git branch -D name</p>
+</p>
+<br />課程介紹 << <a href='課程介紹.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片</section></div></body></html>

@@ -335,19 +335,20 @@ make.start()
 <t tx="leo.20181104125641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
+
     &lt;/script&gt;
 &lt;/section&gt;
 
 
-						
 </t>
-<t tx="leo.20181104125651.1">###week1
+<t tx="leo.20181104125651.1">### week1
 
-###如何建立個人github 網站
+### 如何建立個人github 網站
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aUiKeZ4gwGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20181104125748.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aUiKeZ4gwGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181104125748.1">						
+&lt;section data-markdown&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -355,10 +356,26 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181104125748.2">###week3
+<t tx="leo.20181104125748.2">    &lt;script type="text/template"&gt;
+    ### week2
+
+### 試做如何使用zoomit 跟Sharex
+
+&lt;iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+### week3
 
 ### git 基本練習
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o82ktbT9--4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/o82ktbT9--4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
 </tnodes>
 </leo_file>
